@@ -20,7 +20,7 @@ Files in This Repository:
     - exam_9999.txt: termination file
 - reportPartC.pdf: Deadlock/livelock analysis report
 - README.md: This file
-- 
+
 System Requirements:
 - Linux or WSL (Ubuntu)
 - CMake
