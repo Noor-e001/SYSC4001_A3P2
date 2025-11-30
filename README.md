@@ -29,9 +29,11 @@ System Requirements:
 These programs were built and tested using CLion with WSL.
 
 How to Compile:
+
 From the project root directory:
 cmake -S . -B cmake-build-debug
 cmake --build cmake-build-debug
+
 This will build both:
 part2a
 part2b
