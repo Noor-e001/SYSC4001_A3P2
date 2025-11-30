@@ -39,25 +39,32 @@ part2a
 part2b
 
 How to Run:
+
 Navigate to the build folder:
 cd cmake-build-debug
 
 Run Part 2.a (No Semaphores)
+
 ./part2a 3
 
 Run Part 2.b (With Semaphores)
+
 ./part2b 3
 
 The number 3 represents the number of Teaching Assistants (TAs).
+
 You can use any value ≥ 2.
 
 Program Behavior:
+
 Each TA process will:
 1. Review the rubric and randomly correct entries.
 2. Mark one question per exam.
 3. After all 5 questions are marked, one TA loads the next exam.
 4. The system stops when the student number 9999 is reached.
+
 Differences Between Versions:
+
 Part 2.a
 - No synchronization
 - Race conditions may occur
@@ -72,6 +79,7 @@ Part 2.b
 - No race conditions
 
 Output:
+
 Both programs print:
 - Which TA is correcting the rubric
 - Which question is being marked
@@ -81,6 +89,7 @@ Both programs print:
 - A final completion message
 
 Part 2.c Report:
+
 The file reportPartC.pdf contains:
 - Analysis of Part 2.a behavior
 - Analysis of Part 2.b behavior
@@ -89,8 +98,11 @@ The file reportPartC.pdf contains:
 - Final conclusions
 
 Notes:
+
 The terminating exam must be named:
 exam_9999.txt
+
 The rubric file must exist as:
 rubric.txt
+
 The exams directory must be in the same working directory as the executables.
